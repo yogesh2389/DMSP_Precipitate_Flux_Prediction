@@ -1,0 +1,14 @@
+Step-1: Open GitBash with right click from the folder, from
+where you want to push your file which is larger than 100MB.
+
+Step-2: Type code "$ git lfs install" to install the library in GitBash
+
+Step-3: $ git lfs track "*.csv"
+
+Step-4: $ git lfs push --all origin main
+
+Step-5: $ git add .
+
+Step-6: $ git commit -m "Dataset more than 100Mb added"
+
+Step-7: $ git push -u origin main
